@@ -1,2 +1,11 @@
 # Ignore virtual environment
 beam-env/
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform working directory
+.terraform/
